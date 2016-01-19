@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_backgroud"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56abe4"
+    tools:context="com.android.hugo.giftforstylist.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_slogn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:shadowDy="20"
+        android:text="Gift For Designers"
+        android:textColor="#F5F5F5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="84dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_num"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/jing"/>
+
+        <EditText
+            android:id="@+id/et_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_num"
+            android:layout_toRightOf="@+id/iv_num"
+            android:background="@null"
+            android:digits="0123456789abcdefABCDEF"
+            android:hint="HEX"
+            android:inputType="textVisiblePassword"
+            android:maxLength="6"
+            android:textColorHint="#F5F5F5"
+            android:textSize="20sp"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/iv_num"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/xitongrgb"/>
+
+        <EditText
+            android:id="@+id/et_rgb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_toEndOf="@+id/iv_num"
+            android:layout_toRightOf="@+id/iv_num"
+            android:background="@null"
+            android:digits=",0123456789"
+            android:hint="RGB"
+            android:inputType="number"
+            android:textColorHint="#F5F5F5"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
