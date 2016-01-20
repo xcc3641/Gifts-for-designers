@@ -69,10 +69,20 @@
             android:digits=",0123456789"
             android:hint="RGB"
             android:inputType="number"
+            android:maxLines="1"
             android:textColorHint="#F5F5F5"
             android:textSize="20sp"/>
+
 
     </RelativeLayout>
 
 
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycerView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        />
 </RelativeLayout>
