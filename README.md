@@ -116,10 +116,10 @@ RxTextView.textChanges(editTextHEX)
 
 
 # Todo&Issues
-- [x] 搭配色算法推荐
+- [x] ~~搭配色算法推荐~~
 - [ ] 搭配色展示（RecyclerView）
 - [ ] 目前只做了16进制颜色，RGB有些逻辑问题
-- [x] 删除过快会有卡顿（不知道如何解决）
+- [x] ~~删除过快会有卡顿~~
 - [ ] 颜色保存列表
 
 # 截图
